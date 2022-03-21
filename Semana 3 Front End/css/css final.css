@@ -1,0 +1,451 @@
+body {
+    font-family: sans-serif;
+    font-size: 1.25rem;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.wrapper2{
+    display: grid;  
+}
+
+.wrapper3{
+    display: grid;
+   
+   
+    
+}
+
+
+.boton-nav {
+    background-color: #3454d2;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+.navbar-brand {
+    color: #2b4bc9 !important;
+    margin-left: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    opacity: 0.95; 
+    z-index: 1;
+}
+
+
+
+
+.leftcover{
+    width: 50%;
+    height: 100%-100px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.titulocover{
+    height: 100px;
+    width: 400px;
+    position: relative;
+    top: 100px;
+    font-size: 40px;
+    font-weight:800;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 42px;
+}
+
+.textcover-cont{
+    width: 400px;
+    height: auto;
+    display: flex;
+    position: relative;
+    top: 110px;
+}
+
+.subscovercont{
+    width: 400px;
+    height: 50px;
+    position: relative;
+    top: 130px ;
+    display: flex;
+}
+
+.subscover{
+    width: 320px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.subs{
+    width: 160px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.minitext{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(143, 143, 143);
+}
+
+.preformcont{
+    width: 400px;
+    height: 50px;
+    position: relative;
+    top: 270px ;
+    display: flex;
+    align-items: center;
+}
+
+.preform{
+    width: 270px;
+    height: 30px;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(143, 143, 143);
+    font-weight: bold;
+    line-height: 23px;
+}
+
+.formvacon{
+    width: 750px;
+    height: 90px;
+    position: relative;
+    top: 265px ;
+    left: 200px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.816);
+    box-shadow: 0px 10px rgba(0, 0, 0, 0.07);
+    align-items: center;
+    padding: 20px;
+}
+
+.infocont{
+    height: 90px;
+    width: 610px;
+    display: flex;
+}
+
+.info{
+    height: 75px;
+    width: 196.6px;
+    padding-top: 15px;
+    padding-left: 10px;
+    display: flex;
+    flex-flow: column;
+}
+
+.upinfo{
+    width: 180px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row;
+    align-content: center;
+    gap: 10px;
+}
+
+.downinfo{
+    width: 155px;
+    height: 25px;   
+    position: relative;
+    top:10px;
+    left: 25px;
+}
+
+.inform{
+    width: 155px;
+    height: 25px;
+    border: 0px;
+}
+
+.infobot{
+    height: 50px;
+    width: 160px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cover{
+    
+    width: 100%;
+    
+    height: 800px;
+    display: flex;
+}
+
+.rightcover{
+    width: 50%;
+    height: 100%-100px;
+    margin-top: 100px;
+
+    grid-column: 3 / 5;
+    grid-row: 2 / 10;
+    background: url('../img/enfermera.jpeg'), linear-gradient(to bottom right, #0899e6, #375fda);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.botonesazul{
+    background-color: #2b4bc9;
+    border-radius: 4px;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 8px 8px rgba(73, 69, 136, 0.446);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
+.cinco {
+    grid-column: 1 / 5;
+    grid-row: 10;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.column2 {
+    width: 25%; 
+    float: left;
+    justify-content: center;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: table-cell; 
+    vertical-align: middle; 
+    text-align: center;
+}
+
+
+.seis {
+    grid-column: 1 / 5;
+    grid-row: 11;
+    height: 50px;
+    border-top: 3px solid #f4f6fb;
+}
+
+
+
+.art2 {
+    top: -100px;
+    padding-left: 10%;
+    padding-right: 60%;
+    position: relative;     
+}
+
+.h1-titulo {
+    color: #1f3e72;
+    font-weight: bold;
+    font-size: 52px;
+}
+
+.siete {
+    grid-column: 1 / 5;
+    grid-row: 15;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.card2 {
+    margin: 5%; 
+    border: 3px solid ghostwhite;
+    border-left: 3px solid ghostwhite !important;
+    border-radius: 3%;
+}
+
+.card-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #1f3e72;
+    font-weight: 600;
+}
+
+.material-icons {
+    padding: 1.5%;
+    border-radius: 15%;
+}
+
+.material-icons {
+    background: #e9f1fe;
+    color: #3353d1;
+}
+
+
+
+.nueve {
+    grid-column: 1 / 5;
+    grid-row: 17;   
+}
+
+.art3 {
+    top: -30px;
+    padding-left: 60%;
+    padding-right: 10%;
+    position: relative;     
+}
+
+.diez {
+    grid-column: 1 / 3;
+    grid-row: 18;
+    height: 600px;
+    text-align: center;
+    right: 15%;
+}
+
+.diez img {  
+    position: relative;
+    bottom: 25%;
+    
+}
+
+
+
+.once {
+    grid-column: 3 / 5;
+    grid-row: 18;
+    padding-bottom: 350px;
+    border-bottom: 3px solid #f4f6fb;
+    
+}
+
+.accordion {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+.accordion-item {
+    border: 1px solid ghostwhite;
+}
+
+.accordion-button::after {
+    background-image: url("./img/flecha.png") !important;
+}
+
+.accordion-button span {
+    margin-right: 5%;
+}
+
+.accordion-body {
+    margin-top: -3%;
+    padding-left: 17%;
+    padding-right: 12%;
+    color: slategray;
+    font-size: 14px;
+    opacity: 90%;
+}
+
+.doce {
+    grid-column: 1 / 5;
+    grid-row: 19;
+    height: 350px;
+}
+
+
+
+.trece {
+    grid-column: 1 / 3;
+    grid-row: 20;
+    padding-left: 20%;
+    padding-right: 15%;
+    text-align: left;
+    margin: auto;
+}
+
+.card3 {
+    border: 3px solid ghostwhite;
+}
+
+
+
+.mi2 {
+    padding: 15px;
+    border-radius: 15%;
+    font-size: 32px;
+}
+
+.mi3 {
+    float: left;
+    margin-left: 2.5%;
+    margin-bottom: 15%;
+    margin-right: 5%;
+}
+
+.btn-info.active {
+    background-color: #f1f5ff !important;
+    border: none;
+    font-weight: bold;
+    color: #4e6ada;
+    width: 95%;
+}
+
+.col-6 {
+    padding-right: 25%;
+}
+
+.catorce {
+    grid-column: 3 / 5;
+    grid-row: 20;
+    height: 600px;
+   
+    text-align: center;
+    right: 15%;
+}
+
+
+
+.quince {
+    grid-column: 1 / 5;
+    grid-row: 21;
+    height: 150px;
+}
+
+.dieciseis {
+    grid-column: 1 / 5;
+    grid-row: 22;
+    background-color: #eef3ff;
+    height: 50vh;
+    padding-top: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    z-index: -2;
+}
